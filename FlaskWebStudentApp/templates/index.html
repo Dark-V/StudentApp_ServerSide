@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            background-color: #f8f9fa;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            padding: 20px;
+        }
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="#">Login/Logout</a></li>
+            <li><a href="#">Просмотр оценок</a></li>
+            <li><a href="#">Просмотр посещаемости</a></li>
+            <li><a href="#">Ввод оценок</a></li>
+            <li><a href="#">Ввод посещаемости для преподавателей</a></li>
+            <li><a href="#">Формирование отчетов</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Welcome, {{ student.name }}</h1>
+        <p>Group Number: {{ student.group_number }}</p>
+        <p>Job: {{ student.job }}</p>
+    </div>
+</body>
+</html>

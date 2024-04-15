@@ -1,0 +1,1 @@
+C:\Users\DarkV\source\repos\FlaskWebStudentApp\FlaskWebStudentApp\obj\Any CPU\Debug\FlaskWebStudentApp.pyproj.CoreCompileInputs.cache
